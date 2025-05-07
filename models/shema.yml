@@ -2,7 +2,7 @@
 
  version: 2
  sources: 
-   - name: GW_RAW_DATA
+   - name: gw_raw_data
      tables:
        - name: raw_gz_sales
        - name: raw_gz_production
