@@ -2,13 +2,13 @@ with
 
 source as (
 
-    select * from {{ source('gz_raw_data', 'raw_gz_sales') }}
+    select * from {{ source('gz_raw_data', 'raw_gz_production') }}
 
 ),
 
 renamed as (
 
-    select *
+    select
 
     from source
 
